@@ -1,0 +1,51 @@
+.faq-section{
+    width: 100%;
+    margin: 3rem 0;
+}
+
+.faq-container{
+    max-width: 1240x;
+    padding: 1rem;
+    margin: auto;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.faq-col-1 h3{
+    font-size: 28px;
+    padding: 1rem 0;
+}
+
+.faq-col-1 p{
+    color: var(--grey);
+}
+
+.faq-col-1 span{
+    color: var(--primary);
+}
+
+.faq-col-1 h5{
+    font-size: 1rem;
+    padding: .4rem 0;
+}
+
+.faq{
+padding: 1.2rem 0;
+}
+
+.faq p{
+    color: var(--grey);
+}
+
+@media screen and (max-width:960px) {
+
+    .faq-section{
+        margin: 1rem 0;
+    }
+
+    .faq-container{
+        grid-template-columns: 1fr;
+    }
+    
+}
